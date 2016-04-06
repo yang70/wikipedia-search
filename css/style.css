@@ -1,0 +1,71 @@
+/* MISCELLANEOUS */
+body {
+  background-color: #6CADDE;
+}
+
+#clear {
+  display: none;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background-color: #6CADDE;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-width: 0;
+}
+
+.btn-success {
+  background-color: #D81D4E;
+  border-width: 0;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  background-color: #Af153B;
+}
+
+.btn-success:active:hover {
+  background-color: black;
+}
+
+/* CONTAINERS */
+#page-container {
+  margin-top: 30vh;
+}
+
+.result-container {
+  padding: 10px;
+  border-width: 0;
+  border-radius: 3px;
+  color: white;
+  background-color: #2D2D2D;
+  width: 100%;
+}
+
+.result-container:hover {
+  color: white;
+  background-color: #D81D4E;
+}
+
+/* LIST STYLING */
+
+
+#results-list {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#results-list li a {
+  text-decoration: none;
+}
+
+span {
+  font-size: 25px;
+}
